@@ -1,6 +1,8 @@
-const apiKey = "5281dd757ec130936633191f50d3a9ff";
+
 const request = require("request");
-const util = require("./utilities");
+const api = require('./api');
+
+apiKey = api.apiKey;
 const getWeather = (data, callback) => {
   request(
     {
