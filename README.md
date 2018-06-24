@@ -11,7 +11,7 @@ $ npm install
 ```
 Then:
 ```sh
-$ node index.js -a "Tirgu Mures" 
+$ node index-axios.js -a "Tirgu Mures" 
 ```
 Sample output:
 ```sh
